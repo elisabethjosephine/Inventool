@@ -31,11 +31,18 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Pages::home');
+$routes->get('/', 'Login::index');
+$routes->get('/barangmasuk', 'Barangmasuk::index');
 $routes->get('/supplier', 'Supplier::index');
 $routes->get('/lokasi', 'Lokasi::index');
 $routes->get('/supplier/create', 'Supplier::create');
 $routes->get('/supplier/(:any)', 'Supplier::detail/$1');
+
+
+$routes->get('/barang', 'BarangController::index');
+$routes->get('/barang/(:any)', 'BarangController::$1_get');
+$routes->post('/barang/(:any)', 'BarangController::$1_post');
+
 
 
 /*

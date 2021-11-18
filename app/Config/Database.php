@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => '',
         'password' => '',
-        'database' => '',
+        'database' => 'db_inventaris_rplb_1920_08_elisabeth',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

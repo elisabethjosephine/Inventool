@@ -14,8 +14,8 @@
                             <h5 class="card-title"><?= $supplier['nama_supplier']; ?></h5>
                             <p class="card-title"><?= $supplier['telp_supplier']; ?></p>
                             <p class="card-text"><?= $supplier['alamat_supplier']; ?></p>
-                            <a href="/lokasi/<?= $l['id_lokasi']; ?>" class="btn btn-success">Upddate</a>
-                            <a href="/lokasi/<?= $l['id_lokasi']; ?>" class="btn btn-danger">Delete</a>
+                            <a href="#" class="btn" style="background-color: #dc3545">Hapus</a>
+                            <a href=" #" class="btn" style="background-color:#FFC107;">Ubah</a>
                         </div>
                     </div>
                 </div>

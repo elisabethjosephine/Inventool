@@ -165,7 +165,7 @@ INSERT INTO `lokasi` (`id_lokasi`, `nama_lokasi`, `penanggung_jawab`, `keteranga
 
 CREATE TABLE `pinjam_barang` (
   `id_pinjam` int(11) NOT NULL,
-  `peminjam` char(8) NOT NULL,
+  `peminjam` char(8) NOT NULL
   `tgl_pinjam` date NOT NULL,
   `barang_pinjam` char(8) NOT NULL,
   `jml_pinjam` int(11) NOT NULL,
@@ -375,7 +375,6 @@ ALTER TABLE `user`
 --
 ALTER TABLE `barang`
   ADD CONSTRAINT `barang_ibfk_1` FOREIGN KEY (`lokasi`) REFERENCES `lokasi` (`id_lokasi`),
-  ADD CONSTRAINT `barang_ibfk_2` FOREIGN KEY (`id_barang`) REFERENCES `stok` (`id_barang`),
   ADD CONSTRAINT `barang_ibfk_3` FOREIGN KEY (`sumber_dana`) REFERENCES `sumber_dana` (`id_sumber`);
 
 --

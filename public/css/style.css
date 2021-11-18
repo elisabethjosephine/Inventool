@@ -29,3 +29,43 @@
 .img-fluid {
   align-items: center;
 }
+.wrap {
+  background-color: #fff;
+}
+.login {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  align-items: center;
+  font-size: 14pt;
+}
+.form-control {
+  background-color: #f0f0f0;
+  border: none;
+}
+.title-login {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  color: #373737;
+  margin-bottom: 30px;
+}
+.copyright {
+  color: #373737;
+  margin-top: 25px;
+}
+.col-4 {
+  align-items: center;
+  height: 13%;
+  margin: 0 auto;
+}
+#btn-login {
+  background-color: #09a599;
+  width: 100%;
+  height: 11%;
+  margin-top: 20px;
+}
+.img-login {
+  width: 201px;
+  height: 54px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
